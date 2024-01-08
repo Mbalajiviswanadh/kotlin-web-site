@@ -35,17 +35,26 @@ app with Kotlin/Wasm in IntelliJ IDEA, and generate artifacts to publish as a si
 
    ![Run the Gradle task](wasm-gradle-task-window.png){width=650}
 
-    Alternatively, you can run the following command in the terminal from the `compose-example` directory:
+    You can also run the following command in the terminal from the `compose-example` directory:
 
    ```bash
    ./gradlew wasmJsBrowserRun -t
    ```
 
+   >Alternatively, you can load **compose-example** by opening it directly from the file explorer in **File | Open**.
+   >
+   {type="note"}
+
 3. Once the application starts, open the following URL in your browser:
 
    ```bash
-   http://localhost:8081/
+   http://localhost:8080/
    ```
+
+   > The port number can vary. If the 8080 port is unavailable, you can find the corresponding port number printed in the console
+   > after building the application.
+   >
+   {type="tip"}
 
    You see a "Hello World!" button. Click it:
 
